@@ -1,0 +1,53 @@
+h2{
+    animation-name: pop;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes pop{
+    0%{transform: scale(0.8);}
+    100%{transform: scale(2);}
+    
+}
+h1{
+    animation-name: same;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes same{
+    0%{transform: scale(0.5);}
+    100%{transform: scale(1.8);}
+}
+.social ul li a{
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes rotate{
+
+    100% {transform: rotate(360deg);}
+
+}
+.contact .container h3{
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes change{
+    20%{background: rgb(245, 77, 62);}
+    40%{background: rgb(59, 59, 184);}
+    60%{background: rgb(157, 206, 203);}
+    80%{background: rgb(94, 72, 182);}
+    100%{background: rgb(223, 87, 228);}
+   
+}
+.contact .container .btn a{
+    animation-name: same;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
