@@ -29,12 +29,12 @@
         <div class="container">
     <!--**********nav-->
             <nav>
-                <div class="logo"><a href="#"><img src="img/log.png" alt=""></a></div>
+                <div class="logo"><a href="#"><img src="img/log.png" alt=""></a><h1>SHOEB</h1></div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">Notes</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Works">Works</a></li>
+                        <li><a href="#msg">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -48,7 +48,7 @@
         </div>
     </header>
 <!--About-->
-    <section class="about-wraper main_bg">
+    <section class="about-wraper main_bg" id="About">
         <div class="container">
             <img src="img/log.png" alt="">
             <h2>Hi</h2>
@@ -58,7 +58,7 @@
         </div>
     </section>
 <!--****************-work******************-->
-    <section class="work">
+    <section class="work" id="Works">
         <div class="container">
             <h2>What I can do.</h2>
             <div class="design">
@@ -90,7 +90,7 @@
             <h2>I can help.</h2>
             <h3>I’m currently available for freelance work.</h3>
             <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
-           <div class="btn"><a href="#">
+           <div class="btn"><a href="#msg">
             <i class="far fa-envelope"></i>
             MESSAGE ME
            </a></div>
@@ -104,18 +104,18 @@
                 <li><a href="https://twitter.com/shoebsifat360"><i class="fab fa-twitter"></i></a></li>
             </ul>
         </div>
-        <div class="form">
+        <div class="form" id="msg">
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22646.664589101394!2d90.07578827320579!3d22.310651013500713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30aaa39374e27c7d%3A0x66fceafe19677b18!2sBamna!5e1!3m2!1sen!2sbd!4v1642468873970!5m2!1sen!2sbd" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <form action="#">
-                <input type="text" name="" id="" placeholder="Enter your name">
-                <input type="email" name="" id="" placeholder=" Enter your email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your massages:"></textarea>
-                <div class="btn"><a href="#">
+            <form action="https://formspree.io/f/xeqnoyqa" method="post">
+                <input type="text" name="name" id="" placeholder="Enter your name">
+                <input type="email" name="email" id="" placeholder=" Enter your email">
+                <textarea name="massages" id="" cols="30" rows="10" placeholder="Enter your massages:"></textarea>
+                <div class="btn"><button type="submit" href="#">
                     <i class="far fa-envelope"></i>
                     SEND
-                   </a></div>
+                </button></div>
 
             </form>
         </div>
