@@ -17,7 +17,7 @@ font-family: 'The Nautigal', cursive; */
 	scroll-behavior: smooth;
 }
 body{
-    text-align: center;
+    /* text-align: center; */
 }
 h1{
     font-family: 'Sacramento', cursive;
