@@ -14,10 +14,7 @@ font-family: 'The Nautigal', cursive; */
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
-	scroll-behavior: smooth;
-}
-body{
-    text-align: center;
+    scroll-behavior: smooth;
 }
 h1{
     font-family: 'Sacramento', cursive;
