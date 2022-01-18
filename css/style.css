@@ -2,12 +2,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Merriweather:ital@1&family=Montserrat&family=Sacramento&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=The+Nautigal:wght@400;700&display=swap');
+
+
+/* font-family: 'Cookie', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'The Nautigal', cursive; */
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Merriweather', serif;
 }
+body{
+    text-align: center;
+}
+h1,h3{
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 a {
     text-decoration: none;
@@ -134,9 +155,6 @@ header .container .banner .banner_text {
 
 header .container .banner .banner_text h1 {
     font-size: 150px;
-    font-family: 'Cookie', cursive;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'The Nautigal', cursive;
     font-weight: 400;
 }
 header:hover:hover h1{
