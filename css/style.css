@@ -14,7 +14,10 @@ font-family: 'The Nautigal', cursive; */
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
+}
+body{
+    text-align: center;
 }
 h1{
     font-family: 'Sacramento', cursive;
@@ -402,7 +405,7 @@ button {
 	height: 5em;
 	width: 5em;
 	line-height: 5em;
-	font-size: 1.875em;
+	font-size: 1.2em;
 	border-radius: 50%;
 	margin: 0.625em 1.875em;
 	transition: 0.5s;
